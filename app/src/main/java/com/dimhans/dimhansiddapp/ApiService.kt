@@ -19,8 +19,7 @@ interface ApiService {
 
 
     companion object {
-        private const val BASE_URL = "https://script.google.com/macros/s/AKfycbyEvSFOrn1FO02zaRnRVEdcFfa2q_e3wpB1x4bNCAuLJ_2uVpjZDTeBLPrL7c8_otGW/"
-
+        private const val BASE_URL = "LINK TO YOUR GOOGLE SHEET"
         fun create(): ApiService {
             val retrofit = Retrofit.Builder()
                 .baseUrl(BASE_URL)
